@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+.main {
+	margin:220px;
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 250px;
+	gap:20px;
+}
+
+#heading {
+	border: 2px solid black;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+#Options {
+	border: 2px solid black;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+li {
+	list-style: square;
+	font-size: 25px;
+}
